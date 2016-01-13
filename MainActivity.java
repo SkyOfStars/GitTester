@@ -9,12 +9,14 @@ import android.widget.BaseAdapter;
 public class MainActivity extends AppCompatActivity {
 
 
+    private MyAdapter myAdapter;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String s = new String();
-        System.out.println("zz");
+
+        myAdapter = new MyAdapter();
     }
 
     public class MyAdapter extends BaseAdapter {
