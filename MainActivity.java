@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String s = new String();
+        System.out.println("zz");
     }
 
     public class MyAdapter extends BaseAdapter {
